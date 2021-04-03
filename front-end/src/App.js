@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import SearchAppBar from './Components/SearchBar'
+// import HomePage from './Components/HomePage'
 
 function App() {
   return (
     <div className="App">
-      <h1>Pull-a-Part</h1>
+      <section >
+        <SearchAppBar />
+      </section>
     </div>
   );
 }
