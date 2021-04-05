@@ -1,12 +1,14 @@
 import './App.css';
-import SearchAppBar from './Components/SearchBar'
+import SearchBar from './Components/SearchBar';
+import DropDown from './Components/DropDown';
 // import HomePage from './Components/HomePage'
 
 function App() {
   return (
     <div className="App">
       <section >
-        <SearchAppBar />
+        <SearchBar />
+        <DropDown />
       </section>
     </div>
   );

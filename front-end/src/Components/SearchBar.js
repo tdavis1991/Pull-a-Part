@@ -79,7 +79,7 @@ export default function SearchAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography className={classes.title} variant="h6" noWrap>
-            Pull-a-Part
+            <h1>Pull-a-Part</h1>
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
@@ -99,3 +99,4 @@ export default function SearchAppBar() {
     </div>
   );
 }
+
