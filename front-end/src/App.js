@@ -1,16 +1,14 @@
 import './App.css';
-import SearchBar from './Components/SearchBar';
-import DropDown from './Components/DropDown';
-import HomePage from './Components/HomePage';
+import { Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage';
+import ShopPage from './Pages/ShopPage';
 
 function App() {
   return (
     <div className="App">
       <section >
-        <HomePage />
-        <SearchBar />
-        <DropDown />
-        <HomePage />
+        <Route exact path='/' component={HomePage} />
+        <Route path='/shop' component={ShopPage} />
       </section>
     </div>
   );
