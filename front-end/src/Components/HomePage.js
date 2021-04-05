@@ -1,13 +1,15 @@
+
 import React from 'react';
-import './/App.css'
 
 
 function HomePage() {
     return (
         <div>
-           
+           <img src= "../public/images/pull-a-part.png"></img>
         </div>
+        
     )
 }
 
 export default HomePage;
+
