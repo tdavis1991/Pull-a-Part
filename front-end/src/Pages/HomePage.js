@@ -11,9 +11,9 @@ function HomePage() {
         history.push('/shop')
     }
     return (
-        <div>
+        <div id='home-page'>
            <img src={Logo}></img>
-            <button type='button' onClick={handleClick}>Shop</button>
+           <button id='shop-button' type='button' onClick={handleClick}>Shop</button>
         </div>
     )
 }
