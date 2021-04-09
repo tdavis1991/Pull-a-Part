@@ -58,14 +58,19 @@
   width: 50%;
 }
 
+#category-page{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+
 button {
-  margin: 10px auto;
-  display:inline-flexbox;
-  flex-direction: row;
-  justify-content: space-between;
+  display:inline-flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
   max-width: 320px;
-  
   background: #3f51b5;
   padding: 1em 2.4em;
   font-size: .9em;

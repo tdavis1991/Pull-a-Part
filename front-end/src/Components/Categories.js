@@ -17,7 +17,7 @@ function Category(){
         "Racing"
     ]
 
-const history = useHistory();
+// const history = useHistory();
 
 // function handleClick(route) {
 //     history.push(`/shop/${route}`)
@@ -26,7 +26,9 @@ const history = useHistory();
     <button onClick={(category)}> {category} </button>
     )
     return(
+        
         <div>
+            <h2>Categories</h2>
             {categoryItem}
         </div>
     )
