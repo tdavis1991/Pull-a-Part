@@ -4,6 +4,7 @@ import HomePage from './Pages/HomePage';
 import ShopPage from './Pages/ShopPage';
 import CheckoutPage from './Pages/CheckoutPage';
 import ThanksPage from './Pages/ThanksPage';
+import PaymentPage from './Pages/PaymentPage';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Route path='/shop' component={ShopPage} />
         <Route path='/checkout' component={CheckoutPage} />
         <Route path='/thanks' component={ThanksPage} />
+        <Route path='/payment' component={PaymentPage} />
+
       </section>
     </div>
   );
