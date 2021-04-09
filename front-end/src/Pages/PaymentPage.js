@@ -4,10 +4,13 @@ import Logo from './pull-a-part.png'
 
 function PaymentPage() {
     return(
+        
 <div class="row">
+<SearchBar />
+
   <div class="col-75">
     <div class="container">
-      <form action="/action_page.php">
+      <form action="/thanks">
 
         <div class="row">
           <div class="col-50">
